@@ -1,0 +1,19 @@
+# whs
+print("Hello User")
+answer1 = input("Would you like to play a game? (Always type your answers in lower case)")
+if answer1 == "yes":
+    print("Okay let's begin")
+if answer1 == "no":
+    print("Would you like to play tic tac toe?")
+
+
+print("It all started in the sewer. Yes the sewer. They had blamed it on you. They didn't even know, it was the scientist. He had started it all. He didn't know either. The scientist combined a petri dish with living organisms. All he wanted to do was get an invincible pet. John tharks (the scientist) died 12/6/17 (this week Monday). You have a bronze knife and a leather chestplate.")
+answer2 = input("You are confronted by a lvl.1 pink slime. Attack? Yes or no?")
+if answer1 == "yes":
+    print("The pink slime starts to hop down the sewer"
+answer3 = input("Chase it? Yes or no?")
+if answer3 == "yes":
+    print ("You chase the slime down the sewer and come to a split in the sewer.")
+    answer4 = input ("Go left or right?")
+if answer 4
+
