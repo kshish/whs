@@ -1,0 +1,32 @@
+import turtle
+x = 0
+y = 0
+v = 0
+l = 0
+z = 6
+turtle.pu()
+turtle.goto(-400, -300)
+turtle.pd()
+while True == (True):
+    turtle.colormode(255)
+    turtle.pencolor(0, 0, 0)
+    turtle.fd(25)
+    turtle.lt(72)
+    #print(str(y))
+    x += 1
+    if x == 9:
+        turtle.bk(25)
+        y += 1
+        x = 0
+    if y == z:
+        turtle.bk(50)
+        x = 0
+        v += 1
+        y = 0
+    if v == 6:
+        turtle.bk(100)
+        l += 1
+        v = 0
+    if l == 6:
+        turtle.bk(200)
+        l = 0
