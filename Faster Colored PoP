@@ -1,0 +1,61 @@
+import turtle
+from random import randint
+x = 0
+y = 0
+v = 0
+l = 0
+z = 6
+j = 0
+
+r = randint(0, 100)
+g = randint(0, 100)
+b = randint(0, 100)
+
+turtle.pu()
+turtle.tracer(0, 0)
+turtle.goto(-400, -300)
+turtle.pd()
+while True == (True):
+    turtle.colormode(255)
+    turtle.pencolor(r, g, b)
+    turtle.fd(12.5)
+    turtle.lt(72)
+    x += 1
+    if x == 9:
+        turtle.bk(12.5)
+        y += 1
+        x = 0
+    if y == z:
+        turtle.bk(25)
+        x = 0
+        v += 1
+        turtle.update()
+        y = 0
+    if v == 6:
+        turtle.bk(50)
+        l += 1
+        v = 0
+    if l == 6:
+        turtle.bk(100)
+        j += 1
+        l = 0
+    if j == 6:
+        turtle.bk(200)
+        j = 0
+        r += randint(-10, 10)
+    g += randint(-10, 10)
+    b += randint(-10, 10)
+    if r < 0:
+        r = 100
+    if r > 100:
+        r = 0
+    if g < 0:
+        g = 100
+    if g > 100:
+        g = 0
+    if b < 0:
+        b = 100
+    if b > 100:
+        b = 0
+
+
