@@ -1,7 +1,7 @@
 import turtle
 
 running = True
-radius=20
+radius=200
 angle=181
 x=0
 y=0
